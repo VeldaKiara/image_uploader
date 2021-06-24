@@ -8,6 +8,9 @@ module.exports = {
        pink:'#fec7d7',
        white: colors.white
      },
+     fontFamily:{
+       'sans':['Poppins']
+     },
      extend: {},
 
    },
