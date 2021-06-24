@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
+import './App.css'
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <div className="App h-screen flex flex-col justify-center from-purple to-pink  bg-gradient-to-br w-full sm:mx-auto">
+    <div className="relative py-3 sm:max-w-xl sm:mx-auto">
+    <div className="max-w-lg rounded-lg bg-white shadow-lg sm:mx-auto">
+    <div className="box-content shadow-lg bg-gray-50">
+      <div className="md:flex">
+       
+        </div>
+        </div> 
+      </div> 
+  </div>
+  </div>
   );
 }
 
