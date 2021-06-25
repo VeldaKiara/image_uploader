@@ -6,12 +6,15 @@ module.exports = {
      colors:{
        purple:'#7f5af0',
        pink:'#fec7d7',
-       white: colors.white
+       white: colors.white,
+       black: colors.black
      },
      fontFamily:{
        'sans':['Poppins']
      },
-     extend: {},
+     extend: {
+      boxShadow: ['active'],
+     },
 
    },
    variants: {
